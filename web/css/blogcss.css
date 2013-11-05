@@ -1,0 +1,29 @@
+#container{
+    width:700px;    
+    /*background-image: url("../images/comp013.jpg");*/
+}
+
+#leftbar{
+    background-color:#31B404;
+    height:400px;
+    width:300px;
+    float:left;
+}
+
+#Postingsdiv{
+    background-color: #A9F5A9;
+    height:400px;
+    width:400px;
+    float:left;
+}
+
+#title{
+    color:#FE642E;    
+}
+
+#commentsdiv{
+    background-color: #A9F5A9;
+    height:300px;
+    width:400px;
+    float:left;
+}

@@ -1,0 +1,136 @@
+<style type="text/css">
+
+.spotlightmenu{
+width: 100%;
+overflow:hidden;
+}
+
+.spotlightmenu ul{
+margin: 0;
+padding: 0;
+font: bold 14px Verdana; /* font style and size */
+list-style-type: none;
+text-align: center; /* "left", "center", or "right" align menu */
+}
+
+.spotlightmenu li{
+display: inline-block;
+position:relative;
+padding: 5px;
+margin: 0;
+margin-right: 5px; /* right margin between menu items */
+}
+
+
+.spotlightmenu li a{
+display:inline-block;
+padding: 5px;
+min-width:50px; /* horizontal diameter of spotlight */
+height:50px; /* vertical diameter of spotlight */
+text-decoration: none;
+color: black;
+margin: 0 auto;
+overflow:hidden;
+-moz-transition: all 0.5s ease-in-out; /* CSS3 transition to animate all A properties */
+-webkit-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+.spotlightmenu li:hover a{
+color: white;
+background: #a71b15; /* background color of spotlight */
+-webkit-border-radius: 50%; /* large radius to create circular borders */
+-moz-border-radius: 50%;
+border-radius: 50%;
+}
+
+.spotlightmenu li a span{
+position:relative;
+top:35%; /* move text down so it appears centered within menu item */
+}
+
+table.table1{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+}
+
+.table1 thead th{
+    padding:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+    border:1px solid #93CE37;
+    border-bottom:3px solid #9ED929;
+    background-color:#9DD929;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(123,192,67)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(123,192,67) 2%,
+        rgb(139,198,66) 51%,
+        rgb(158,217,41) 87%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.table1 thead th:empty{
+    background:transparent;
+    border:none;
+}
+
+.table1 tfoot td{
+    color: #9CD009;
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+    text-shadow:1px 1px 1px #444;
+}
+.table1 tfoot th{
+    color:#666;
+}
+
+.table1 tbody td{
+    padding:5px;
+    text-align:center;
+    background-color:#DEF3CA;
+    border: 2px solid #E7EFE0;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+
+.table1 tbody span.check::before{
+    content : url(../images/check0.png)
+}
+/*
+#container{
+width:100%; height:250px;
+}*/
+#img{
+float:left; width:50px; height:50px; background:#191919; padding:5px; border:2px solid #2D2D2D;
+}
+#img:hover{
+width:248px; height:150px; background:#000 ;
+}
+
+
+
+</style>
